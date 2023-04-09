@@ -4,27 +4,27 @@ $explodRoute = explode('?', $_SERVER['REQUEST_URI']);
 $route = $explodRoute[0];
 
 if ($route === '/') {
-   echo 'accueil';
+   require './views/home.php';
 } 
 
-elseif ($route === '/register') {
-    echo '<h1>page register</h1>';
+elseif ($route === '/signup') {
+    require './views/signup.php';
 }
 
-elseif ($route === '/login') {
-    echo '<h1>page login</h1>';
+elseif ($route === '/signin') {
+    require './views/signin.php';
 } 
 
-elseif ($route === '/logout') {
-    echo '<h1>page logout</h1>';
+elseif ($route === '/signout') {
+    echo '<h1>Page signout</h1>';
 } 
 
 elseif ($route === '/add-student') {
-    echo '<h1>page add students</h1>';
+    echo '<h1>Page add students</h1>';
 } 
 
 elseif ($route === '/add-course') {
-    echo '<h1>page add courses</h1>';
+    echo '<h1>Page add courses</h1>';
 } 
 
 elseif ($route === '/add-livre') {
@@ -32,5 +32,5 @@ elseif ($route === '/add-livre') {
 } 
 
 else {
-    echo '404';
+    require './views/404.php';
 }
