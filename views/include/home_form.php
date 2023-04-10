@@ -329,11 +329,10 @@
         <h4>Install App</h4>
         <p>Form App Store or Google play</p>
         <div class="row">
-            <img src="./public/images/cahier.png" alt="">
-            <img src="./public/images/cahier.png" alt="">
+            <img src="./public/images/g_p.png" alt="">
         </div>
         <p>Security payment Geteways</p>
-        <img src="./public/" alt="">
+        <img src="./public/images/payment-footer.png" alt="">
     </div>
     <div class="copyright">
         <p>Ce site a été mis au point par <span>Djibs </span>|| <span>TAMOU</span> Dit TD @ en 2023.</p>
