@@ -3,12 +3,17 @@
     <div>
         <ul id="navbar">
             <li><a class="active" href="http://"></a><i class="icon-home"></i> Home</li>
-            <li><a href="http://"></a><i class="icon-group"></i> Premier Cycle</li>
-            <li><a href="http://"></a><i class="icon-add"></i> Second Cycle</li>
-            <li><a href="http://"></a><i class="icon-add"></i> Blog</li>
-            <li><a href="http://"></a><i class="icon-add"></i> About</li>
+            <li><a href="http://"></a><i class="icon-"></i> Premier Cycle</li>
+            <li><a href="http://"></a><i class="icon-"></i> Second Cycle</li>
+            <li><a href="http://"></a><i class="icon-"></i> Blog</li>
+            <li><a href="http://"></a><i class="icon-"></i> About</li>
             <li><a href="http://"></a><i class="icon-phone"></i> Contact</li>
+            <a href="#" id="close"><i class="icon-indent-right"></i></a>
         </ul>
+    </div>
+    <div id="mobile">
+        <!-- <a href=""><i class="icon-shopping-cart"></i></a> -->
+        <i id="bar" class="icon-indent-left"></i>
     </div>
 </section>
 
@@ -302,7 +307,7 @@
                 <i class="icon-twitter"></i>
                 <i class="icon-instagram"></i>
                 <i class="icon-pinterest"></i>
-                <i class="icon-youtube"></i>
+                <i class="icon-youtube-play"></i>
             </div>
         </div>
     </div>
@@ -331,6 +336,6 @@
         <img src="./public/" alt="">
     </div>
     <div class="copyright">
-        <p>Lorem ipsum dolor sit amet consectetur 2023.</p>
+        <p>Ce site a été mis au point par <span>Djibs </span>|| <span>TAMOU</span> Dit TD @ en 2023.</p>
     </div>
 </footer>

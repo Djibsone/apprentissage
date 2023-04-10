@@ -7,7 +7,7 @@
 		<label for="password">Password :</label>
 		<input type="password" id="password" name="password" required>
 
-		<button type="submit"><i class="icon-edit"></i> Sign In</button>
+		<button type="submit"><i class="icon-signin"></i> Sign In</button>
         <a href="./signup">Clik here to register</a>
 	</form>
 </div>

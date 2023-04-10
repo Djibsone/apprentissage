@@ -123,38 +123,6 @@ img:hover {
   }
 }
 
-/* my mrdia screen */
-@media (max-width: 799px) {
-  #navbar {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: fixed;
-    top: 0;
-    right: 0px;
-    height: 100vh;
-    width: 300px;
-    background-color: var(--color2);
-    box-shadow: 0 40px 60px rgb(0, 0, 0, 0.1);
-    padding: 80px 0 0 10px;
-    /* max-width: 100%;
-    flex-direction: column; */
-  }
-}
-
-@media screen and (max-width: 342px) {
-  #hero button {
-      max-width: 100%;
-  }
-}
-
-@media screen and (max-width: 280px) {
-  #hero button {
-      max-width: 100%;
-  }
-}
-
 /* home */
 #header {
   display: flex;
@@ -202,6 +170,15 @@ img:hover {
   position: absolute;
   bottom: -4px;
   left: 20px;
+}
+
+#mobile {
+  display: none;
+  align-items: center;
+}
+
+#close {
+  display: none;
 }
 
 #hero {
@@ -649,4 +626,202 @@ footer .follow i:hover, footer a:hover {
 footer .copyright {
   width: 100%;
   text-align: center;
+}
+
+footer .copyright span {
+color: var(--color15);
+font-size: 14px;
+font-weight: 800;
+}
+
+footer .copyright span:hover {
+  color: var(--color7);
+  cursor: pointer;
+  }
+
+
+
+/* my mrdia screen */
+@media (max-width: 799px) {
+  .section-p1 {
+    padding: 40px 40px;
+  }
+
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+   position: fixed;
+    top: 0;
+    right: -300px;
+    height: 100vh;
+    width: 300px;
+    background-color: var(--color2);
+    box-shadow: 0 40px 60px rgb(0, 0, 0, 0.1);
+    padding: 80px 0 0 10px;
+    transition: 0.3s;
+    /* max-width: 100%;
+    flex-direction: column; */
+  }
+
+  #navbar li {
+    margin-bottom: 25px;
+  }
+
+  #navbar.active {
+    right: 0px;
+  }
+
+  #mobile {
+    display: flex;
+    align-items: center;
+  }
+
+  #mobile i {
+    color: var(--color7);
+    font-size: 24px;
+    padding: 0 0 0 20px;
+  }
+
+  #close {
+    display: initial;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: var(--color5);
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  #hero {
+    height: 70vh;
+    padding: 0 80px;
+    background-position: top 30% right 30%;
+  }
+
+  #cours {
+    justify-content: center;
+  }
+
+  #cours .co-box {
+    margin: 15px 15px;
+  }
+
+  #course1 .co-container {
+    justify-content: center;
+  }
+
+  #course1 .co {
+    margin: 15px 0px;
+  }
+
+  #banner {
+    height: 20vh;
+  }
+
+  #sm-banner .banner-box {
+    min-width: 100px;
+    height: 30vh;
+  }
+
+  #banner3 {
+    padding: 0px 40px;
+  }
+
+  #banner3 .banner-box {
+    width: 28%;
+  }
+
+  #newletter .form {
+    width: 70%;
+  }
+
+}
+
+@media screen and (max-width: 477px) {
+  .section-p1 {
+    padding: 20px;
+  }
+  
+  #header {
+    padding: 10px 30px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  /* #navbar {
+    flex-direction: column;
+    justify-content: space-between;
+    right: -600px;
+    height: 80vh;
+    width: 100px;
+    padding: 40px 0px 0px 4px;
+  }
+
+  #navbar li {
+    padding: 0px 20px;
+  } */
+
+  #hero {
+    padding: 0px 40px;
+    background-position: 55%;
+  }
+
+  #cours .co-box {
+    width: 145px;
+    margin: 0 0 15px 0px;
+  }
+
+  #cours {
+    justify-content: space-between;
+  }
+
+  #course1 .co {
+    width: 100%;
+  }
+
+  #banner {
+    height: 40vh; 
+  }
+
+  #banner3 {
+    padding: 0px 20px;
+  }
+
+  #banner3 .banner-box {
+    width: 100%;
+  }
+
+  #sm-banner {
+    justify-content: space-between;
+  }
+
+  #sm-banner .banner-box {
+    height: 40vh;
+  }
+
+  #sm-banner .banner-box2 {
+    margin: 20px 0 0 0;
+  }
+
+  #newletter {
+    padding: 40px 20px;
+  }
+
+  #newletter .form {
+    width: 100%;
+  }
+
+  footer .copyright {
+    text-align: start;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  #hero button {
+      width: 100%;
+  }
 }
