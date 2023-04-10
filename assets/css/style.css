@@ -1,0 +1,652 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --color1: #f1f1f1;
+  --color2: #fff;
+  --color3: #ccc;
+  --color4: #4CAF50;
+  --color5: red;
+  --color6: #E3E6F3;
+  --color7: #1a1a1a;
+  --color8: #088178;
+  --color9: white;
+  --color10: #465b52;
+  --color11: yellowgreen;
+  --color12:  #cce7d0;
+  --color13: #fddde4;
+  --color14: #606063;
+  --color15: rgb(243, 181, 25);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--color1);
+  padding: 20px;
+  width: 100%;
+}
+
+.container {
+  background-color: var(--color2);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  max-width: 600px;
+  margin: 0 auto;
+  animation: slide-up 0.5s ease-out;
+}
+
+@keyframes slide-up {
+  from {
+      transform: translateY(50%);
+      opacity: 0;
+  }
+  to {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+
+h11 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h6 {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+p {
+  font-size: 16px;
+  color: var(--color10);
+  margin: 15px 0 20px 0;
+}
+
+input[type=text], input[type=email], input[type=password] {
+  width: 100%;
+  padding: 12px;
+  margin: 6px 0;
+  display: inline-block;
+  border: 1px solid var(--color3);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button[type=submit] {
+  background-color: var(--color4);
+  color: var(--color9);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  transition: background-color 0.3s ease-out;
+}
+
+button[type=submit]:hover {
+  background-color: var(--color4);
+}
+
+a {
+  color: var(--color5);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.i {
+  border-radius: 20px;
+  display: block;
+  margin: 0 auto;
+  max-width: 600px;
+  animation: slide-up 0.5s ease-out;
+
+}
+
+img:hover {
+  transform: translateY(0);
+
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+      max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  i {
+      max-width: 100%;
+  }
+}
+
+/* my mrdia screen */
+@media (max-width: 799px) {
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    right: 0px;
+    height: 100vh;
+    width: 300px;
+    background-color: var(--color2);
+    box-shadow: 0 40px 60px rgb(0, 0, 0, 0.1);
+    padding: 80px 0 0 10px;
+    /* max-width: 100%;
+    flex-direction: column; */
+  }
+}
+
+@media screen and (max-width: 342px) {
+  #hero button {
+      max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  #hero button {
+      max-width: 100%;
+  }
+}
+
+/* home */
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+  background: var(--color6);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar li {
+  list-style: none;
+  padding: 0 20px;
+  cursor: pointer;
+  position: relative;
+}
+
+#navbar li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600px;
+  color: var(--color7);
+  transition: 0.3s ease;
+}
+
+#navbar li a:hover, #navbar li a.active {
+  color: var(--color8);
+}
+
+#navbar li a.active::after, #navbar li a:hover::after {
+  content: "";
+  width: 30%;
+  height: 2px;
+  background: var(--color8);
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+}
+
+#hero {
+  background-image: url('../../public/images/hero-men3.png');
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-color: var(--color6);
+  background-position: top 10% right 0;
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#hero h4 {
+  padding-bottom: 15px;
+}
+
+#hero h1 {
+  color: var(--color8);
+}
+
+#hero button {
+  /*background-color: var(--color11);*/
+  background-color: transparent;
+  color: var(--color8);
+  margin-top: 10px;
+  border-radius: 14px;
+  padding: 14px 80px 14px 65px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+#hero button:hover {
+  background-color: var(--color11);
+  color: var(--color5);
+}
+
+.section-p1 {
+  padding: 40px 80px;
+}
+
+.section-m1 {
+  margin: 40px 0;
+}
+
+button.normal {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: var(--color7);
+  background-color: var(--color2);
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+}
+
+button.white {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 11px 18px;
+  color: var(--color2);
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid var(--color2);
+  outline: none;
+  transition: 0.2s;
+}
+
+#cours {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#cours .co-box {
+  width: 180px;
+  text-align: center;
+  padding: 25px 15px;
+  box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+  border: 1px solid var(--color12);
+  border-radius: 10px;
+  margin: 15px 0;
+}
+
+#cours .co-box {
+  box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+}
+
+#cours .co-box img {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+#cours .co-box h6 {
+  /*display: inline-block;*/
+  padding: 9px 8px 6px 8px;
+  line-height: 1;
+  border-radius: 4px;
+  color: var(--color4);
+  background-color: var(--color10);
+  cursor: pointer;
+}
+
+/* different color background */
+
+#cours .co-box:nth-child(2) h6 {
+  background-color: var(--color12);
+}
+
+#cours .co-box:nth-child(3) h6 {
+  background-color: var(--color11);
+}
+
+#cours .co-box:nth-child(4) h6 {
+  background-color: var(--color8);
+}
+
+#cours .co-box:nth-child(5) h6 {
+  background-color: var(--color7);
+}
+
+#cours .co-box:nth-child(6) h6 {
+  background-color: var(--color9);
+}
+
+#course1 {
+  text-align: center;
+}
+
+#course1 .co-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#course1 .co {
+  width: 23px;
+  min-width: 250px;
+  padding: 10px 12px;
+  border: 1px solid var(--color12);
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
+  margin: 15px 0;
+  transition: 0.2s ease;
+  position: relative;
+
+}
+
+#course1 .co:hover {
+  box-shadow: 20px 20px 30px rgba(0,0,0,0.06);
+}
+
+#course1 .co img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+#course1 .co .des {
+  text-align: start;
+  padding: 10px 0;
+}
+
+#course1 .co .des span {
+  color: var(--color14);
+  font-size: 12px;
+}
+
+#course1 .co .des h5 {
+  padding-top: 7px;
+  color: #1a1a1a;
+  font-size: 14px;
+}
+
+#course1 .co .des i {
+  font-size: 12px;
+  color: var(--color15);
+}
+
+#course1 .co .des h4 {
+  padding-top: 7px;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--color4);
+}
+
+#course1 .co .cart {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50px;
+  background-color: #fff;
+  font-weight: 500px;
+  border: 1px solid var(--color12);
+  color: var(--color4);
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+}
+
+/* #course1 .co .cart:hover {
+  background-color: var(--color5);
+} */
+
+#banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url('../../public/images/hero-men.png');
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+}
+
+#banner h4 {
+  color: var(--color2);
+  font-size: 16px;
+}
+
+#banner h2 {
+  color: var(--color2);
+  font-size: 16px;
+  padding: 10px 0;
+}
+
+#banner h2 span {
+  color: var(--color5);
+}
+
+#banner button:hover {
+  background: var(--color4);
+  color: var(--color12);
+}
+
+#sm-banner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#sm-banner .banner-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url('../../public/images/hero-men2.png');
+  min-width: 580px;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+}
+
+#sm-banner .banner-box2 {
+  background-image: url('../../public/images/td.jpg');
+}
+
+#sm-banner h4 {
+  color: var(--color1);
+  font-size: 28px;
+  font-weight: 300;
+}
+
+#sm-banner h2 {
+  color: var(--color1);
+  font-size: 28px;
+  font-weight: 800;
+}
+
+#sm-banner span {
+  color: var(--color1);
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+
+#sm-banner .banner-box:hover button {
+  background: var(--color4);
+  border: 1px solid var(--color2);
+}
+
+#banner3 {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+padding: 0 80px;
+}
+
+#banner3 .banner-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url('../../public/images/td.jpg');
+  min-width: 30%;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#banner3 .banner-box2 {
+  background-image: url('../../public/images/hero-men3.png');
+}
+
+#banner3 .banner-box3 {
+  background-image: url('../../public/images/hero-men.png');
+}
+
+#banner3 h2 {
+  color: var(--color2);
+  font-weight: 900;
+  font-size: 22px;
+}
+
+#banner3 h3 {
+  color: var(--color5);
+  font-weight: 800;
+  font-size: 15px;
+}
+
+#newletter {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-image: url();
+  background-repeat: no-repeat;
+  background-position: 20% 30%;
+  background-color: var(--color14);
+}
+
+#newletter h4 {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--color1);
+}
+
+#newletter p {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color8);
+}
+
+#newletter p span {
+  color: var(--color15);
+}
+
+#newletter .form {
+  display: flex;
+  width: 40%;
+}
+
+#newletter input {
+  height: 3.125em;
+  padding: 0 1.25em;
+  font-size: 14px;
+  width: 100%;
+  border: 1px solide transparent;
+  border-radius: 4px;
+  outline: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#newletter button {
+  background-color: var(--color4);
+  color: var(--color2);
+  white-space: nowrap;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer .col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+footer .logo {
+  margin-bottom: 30px;
+}
+
+footer h4 {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+footer p {
+  font-size: 14px;
+  margin: 0 0 8px 0;
+}
+
+footer a {
+  font-size: 13px;
+  text-decoration: none;
+  color: var(--color7);
+  margin-bottom: 10px;
+}
+
+footer .follow {
+  margin-top: 20px;
+}
+
+footer .follow {
+  color: var(--color14);
+  margin-top: 20px;
+  padding-right: 4px;
+  cursor: pointer;
+}
+
+footer .install .row img {
+  border: 1px solid var(--color4);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+footer .install img {
+  margin: 10px 0 15px 0;
+}
+
+footer .follow i:hover, footer a:hover {
+  color: var(--color4);
+}
+
+footer .copyright {
+  width: 100%;
+  text-align: center;
+}
