@@ -19,8 +19,8 @@ elseif ($route === '/signout') {
     echo '<h1>Page signout</h1>';
 } 
 
-elseif ($route === '/add-student') {
-    echo '<h1>Page add students</h1>';
+elseif ($route === '/course') {
+    require './views/course.php';
 } 
 
 elseif ($route === '/add-course') {

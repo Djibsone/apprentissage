@@ -2,8 +2,8 @@
     <a href="http://"><img src="./public/images/logo.png" alt=""></a>
     <div>
         <ul id="navbar">
-            <li><a class="active" href="http://"></a><i class="icon-home"></i> Home</li>
-            <li><a href="./course"><i class="icon-"></i> Premier Cycle</a></li>
+            <li><a href="./"><i class="icon-home"></i> Home</a></li>
+            <li><a class="active" href="http://"></a><i class="icon-"></i> Premier Cycle</li>
             <li><a href="./"><i class="icon-"></i> Second Cycle</a></li>
             <li><a href="./"><i class="icon-"></i> Blog</a></li>
             <li><a href="./"><i class="icon-"></i> About</a></li>
@@ -17,44 +17,12 @@
     </div>
 </section>
 
-<section id="hero">
-    <h4>Trade-in-offer</h4>
-    <h2>Super value deals</h2>
-    <h1>On all courses</h1>
+<section id="page-header">
+    <h2>#stayhome</h2>
     <p>Save more with coupons & up to 70% off</p>
-    <button>Show Now</button>
-</section>
-
-<section id="cours" class="section-p1">
-    <div class="co-box">
-        <img src="./public/images/cahier.png" alt="">
-        <h6>Free Courses</h6>
-    </div>
-    <div class="co-box">
-        <img src="./public/images/cahier.png" alt="">
-        <h6>Free Courses</h6>
-    </div>
-    <div class="co-box">
-        <img src="./public/images/cahier.png" alt="">
-        <h6>Free Courses</h6>
-    </div>
-    <div class="co-box">
-        <img src="./public/images/cahier.png" alt="">
-        <h6>Free Courses</h6>
-    </div>
-    <div class="co-box">
-        <img src="./public/images/cahier.png" alt="">
-        <h6>Free Courses</h6>
-    </div>
-    <div class="co-box">
-        <img src="./public/images/cahier.png" alt="">
-        <h6>Free Courses</h6>
-    </div>
 </section>
 
 <section id="course1" class="section-p1">
-    <h2>Popular Courses</h2>
-    <p>Sumer Collection New Morden Design</p>
     <div class="co-container">
         <div class="co">
             <img src="./public/images/cahier.png" alt="">
@@ -146,19 +114,7 @@
             </div>
             <a href=""><i class="icon-shopping-cart cart"></i></a>
         </div>
-    </div>
-</section>
 
-<section id="banner" class="section-m1">
-    <h4>Repair Servies</h4>
-    <h2>Up to <span>70% off</span> - All book & Accessoires</h2>
-    <button class="normal">Explore More</button>
-</section>
-
-<section id="course1" class="section-p1">
-    <h2>New Courses</h2>
-    <p>Sumer Collection New Morden Design</p>
-    <div class="co-container">
         <div class="co">
             <img src="./public/images/td.jpg" alt="">
             <div class="des">
@@ -249,36 +205,6 @@
             </div>
             <a href=""><i class="icon-shopping-cart cart"></i></a>
         </div>
-    </div>
-</section>
-
-<section id="sm-banner" class="section-p1">
-    <div class="banner-box">
-        <h4>Lorem ipsum.</h4>
-        <h2>buy 1 get 1 free</h2>
-        <span>Lorem ipsum dolor sit amet consectetur.</span>
-        <button class="white">Learn More</button>
-    </div>
-    <div class="banner-box banner-box2">
-        <h4>Lorem ipsum.</h4>
-        <h2>buy 1 get 1 free</h2>
-        <span>Lorem ipsum dolor sit amet consectetur.</span>
-        <button class="white">Collection</button>
-    </div>
-</section>
-
-<section id="banner3">
-    <div class="banner-box">
-        <h2>SEASONAL SALE</h2>
-        <h3>Winter Collection -50% OFF</h3>
-    </div>
-    <div class="banner-box banner-box2">
-        <h2>NEW COLLECTION OF BOOK</h2>
-        <h3>Winter Collection -50% OFF</h3>
-    </div>
-    <div class="banner-box banner-box3">
-        <h2>BOOK OF SCHOOL</h2>
-        <h3>Winter Collection -50% OFF</h3>
     </div>
 </section>
 
