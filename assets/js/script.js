@@ -13,3 +13,19 @@ if (close) {
         nav.classList.remove('active');
     })
 }
+
+var mainImg = document.getElementById('mainImg')
+var smaillimg = document.getElementsByClassName('small-img')
+
+smaillimg[0].onclick = () => {
+    mainImg.src = smaillimg[0].src;
+}
+smaillimg[1].onclick = () => {
+    mainImg.src = smaillimg[1].src;
+}
+smaillimg[2].onclick = () => {
+    mainImg.src = smaillimg[2].src;
+}
+smaillimg[3].onclick = () => {
+    mainImg.src = smaillimg[3].src;
+}

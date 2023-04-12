@@ -657,6 +657,87 @@ footer .copyright span:hover {
   color: var(--color2);
 }
 
+#pagination {
+  text-align: center;
+}
+
+#pagination a {
+  text-decoration: none;
+  background-color: var(--color4);
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: var(--color1);
+  font-weight: 600;
+}
+
+#pagination a i {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* single course */
+#codetails {
+  display: flex;
+  margin: 20px 0 0 0;
+}
+
+#codetails .single-co-image {
+  width: 40%;
+  margin: 0 50px 0 0;
+}
+
+.small-img-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-img-col {
+  flex-basis: 24%;
+  cursor: pointer;
+}
+
+#codetails .single-co-details {
+  width: 50%;
+  padding: 30px 0 0 0;
+}
+
+#codetails .single-co-details h4 {
+  padding: 40px 0 20px 0;
+}
+
+#codetails .single-co-details h2 {
+  font-size: 26px;
+}
+
+#codetails .single-co-details select {
+  display: block;
+  padding: 5px 10px;
+  margin: 4px 0 10px 0;
+  cursor: pointer;
+}
+
+#codetails .single-co-details input {
+  width: 50px;
+  height: 47px;
+  padding: 0 0 0 10px;
+  font-size: 16px;
+  margin: 0 10px 0 0;
+}
+
+#codetails .single-co-details input:focus {
+  outline: none;;
+}
+
+#codetails .single-co-details button {
+  background-color: var(--color4);
+  color: var(--color1);
+}
+
+
+#codetails .single-co-details span {
+  line-height: 25px;
+}
+
 /* my mrdia screen */
 @media (max-width: 799px) {
   .section-p1 {
@@ -755,7 +836,7 @@ footer .copyright span:hover {
 
   .i {
     width: 100%;
-}
+  }
 
 }
 
@@ -838,10 +919,32 @@ footer .copyright span:hover {
   footer .copyright {
     text-align: start;
   }
+
+  /* single course */
+  #codetails {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #codetails .single-co-image {
+    width: 100%;
+    margin: 0px;
+  }
+
+  #codetails .single-co-details {
+    width: 100%;
+  }
+
+  footer .install .row img {
+    width: 100%;
+  }
+
+
 }
 
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 1030px) {
   #hero button {
       width: 100%;
   }
+  
 }

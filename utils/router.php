@@ -23,8 +23,8 @@ elseif ($route === '/course') {
     require './views/course.php';
 } 
 
-elseif ($route === '/add-course') {
-    echo '<h1>Page add courses</h1>';
+elseif ($route === '/scourse') {
+    require './views/scourse.php';
 } 
 
 elseif ($route === '/add-livre') {

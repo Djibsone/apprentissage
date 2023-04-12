@@ -17,104 +17,47 @@
     </div>
 </section>
 
-<section id="page-header">
-    <h2>#stayhome</h2>
-    <p>Save more with coupons & up to 70% off</p>
+<section id="codetails" class="section-p1">
+    <div class="single-co-image">
+        <img src="./public/images/cahier.png" width="100%" id="mainImg" alt="">
+
+        <div class="small-img-group">
+            <div class="small-img-col">
+                <img src="./public/images/td.jpg" width="100%" class="small-img" alt="">
+            </div>
+            <div class="small-img-col">
+                <img src="./public/images/cahier.png" width="100%" class="small-img" alt="">
+            </div>
+            <div class="small-img-col">
+                <img src="./public/images/cahier.png" width="100%" class="small-img" alt="">
+            </div>
+            <div class="small-img-col">
+                <img src="./public/images/cahier.png" width="100%" class="small-img" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="single-co-details">
+        <h6>Home / Book</h6>
+        <h4>Students book</h4>
+        <h2>$124.00</h2>
+        <select name="" id="">
+            <option value="">Select Book</option>
+            <option value="">1X</option>
+            <option value="">2XXL</option>
+            <option value="">Small book</option>
+            <option value="">Large</option>
+        </select>
+        <input type="number" value="1">
+        <button class="normal">Add To Cart</button>
+        <h4>Book Details</h4>
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus consequatur sapiente ex a deserunt debitis.</span>
+    </div>
 </section>
 
 <section id="course1" class="section-p1">
+    <h2>Featured Courses</h2>
+    <p>Sumer Collection New Morden Design</p>
     <div class="co-container">
-        <div class="co" onclick="window.location.href='./scourse'">
-            <img src="./public/images/td.jpg" alt="">
-            <div class="des">
-                <span>The book</span>
-                <h5>The book of school</h5>
-                <div class="star">
-                    <i class="icon-star"></i>
-                    <i class="icon-star"></i>
-                    <i class="icon-star"></i>
-                    <i class="icon-star"></i>
-                </div>
-                <h4>$60</h4>
-            </div>
-            <a href=""><i class="icon-shopping-cart cart"></i></a>
-        </div>
-        <div class="co">
-            <img src="./public/images/cahier.png" alt="">
-            <div class="des">
-                <span>The book</span>
-                <h5>The book of school</h5>
-                <div class="star">
-                    <i class="icon-star"></i>
-                    <i class="icon-star"></i>
-                    <i class="icon-star"></i>
-                    <i class="icon-star"></i>
-                </div>
-                <h4>$60</h4>
-            </div>
-            <a href=""><i class="icon-shopping-cart cart"></i></a>
-        </div>
-        <div class="co">
-            <img src="./public/images/cahier.png" alt="">
-            <div class="des">
-                <span>The book</span>
-                <h5>The book of school</h5>
-                <div class="star">
-                    <i class="icon-star"></i>
-                    <i class="icon-star"></i>
-                    <i class="icon-star"></i>
-                    <i class="icon-star"></i>
-                </div>
-                <h4>$60</h4>
-            </div>
-            <a href=""><i class="icon-shopping-cart cart"></i></a>
-        </div>
-        <div class="co">
-            <img src="./public/images/cahier.png" alt="">
-            <div class="des">
-                <span>The book</span>
-                <h5>The book of school</h5>
-                <div class="star">
-                    <i class="icon-star"></i>
-                    <i class="icon-star"></i>
-                    <i class="icon-star"></i>
-                    <i class="icon-star"></i>
-                </div>
-                <h4>$60</h4>
-            </div>
-            <a href=""><i class="icon-shopping-cart cart"></i></a>
-        </div>
-        <div class="co">
-            <img src="./public/images/cahier.png" alt="">
-            <div class="des">
-                <span>The book</span>
-                <h5>The book of school</h5>
-                <div class="star">
-                    <i class="icon-star"></i>
-                    <i class="icon-star"></i>
-                    <i class="icon-star"></i>
-                    <i class="icon-star"></i>
-                </div>
-                <h4>$60</h4>
-            </div>
-            <a href=""><i class="icon-shopping-cart cart"></i></a>
-        </div>
-        <div class="co">
-            <img src="./public/images/cahier.png" alt="">
-            <div class="des">
-                <span>The book</span>
-                <h5>The book of school</h5>
-                <div class="star">
-                    <i class="icon-star"></i>
-                    <i class="icon-star"></i>
-                    <i class="icon-star"></i>
-                    <i class="icon-star"></i>
-                </div>
-                <h4>$60</h4>
-            </div>
-            <a href=""><i class="icon-shopping-cart cart"></i></a>
-        </div>
-
         <div class="co">
             <img src="./public/images/td.jpg" alt="">
             <div class="des">
@@ -147,36 +90,6 @@
         </div>
         <div class="co">
             <img src="./public/images/cahier.png" alt="">
-            <div class="des">
-                <span>The book</span>
-                <h5>The book of school</h5>
-                <div class="star">
-                    <i class="icon-star"></i>
-                    <i class="icon-star"></i>
-                    <i class="icon-star"></i>
-                    <i class="icon-star"></i>
-                </div>
-                <h4>$60</h4>
-            </div>
-            <a href=""><i class="icon-shopping-cart cart"></i></a>
-        </div>
-        <div class="co">
-            <img src="./public/images/cahier.png" alt="">
-            <div class="des">
-                <span>The book</span>
-                <h5>The book of school</h5>
-                <div class="star">
-                    <i class="icon-star"></i>
-                    <i class="icon-star"></i>
-                    <i class="icon-star"></i>
-                    <i class="icon-star"></i>
-                </div>
-                <h4>$60</h4>
-            </div>
-            <a href=""><i class="icon-shopping-cart cart"></i></a>
-        </div>
-        <div class="co">
-            <img src="./public/images/ellipse3.png" alt="">
             <div class="des">
                 <span>The book</span>
                 <h5>The book of school</h5>
@@ -206,12 +119,6 @@
             <a href=""><i class="icon-shopping-cart cart"></i></a>
         </div>
     </div>
-</section>
-
-<section id="pagination" class="section-p1">
-    <a href="">1</a>
-    <a href="">2</a>
-    <a href=""><i class="icon-arrow-right"></i></a>
 </section>
 
 <section id="newletter" class="section-p1 section-m1">
