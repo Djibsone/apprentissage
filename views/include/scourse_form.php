@@ -3,11 +3,11 @@
     <div>
         <ul id="navbar">
             <li><a href="./"><i class="icon-home"></i> Home</a></li>
-            <li><a class="active" href="http://"></a><i class="icon-"></i> Premier Cycle</li>
+            <li><a class="active" href="./course"></a><i class="icon-"></i> Premier Cycle</li>
             <li><a href="./"><i class="icon-"></i> Second Cycle</a></li>
-            <li><a href="./"><i class="icon-"></i> Blog</a></li>
-            <li><a href="./"><i class="icon-"></i> About</a></li>
-            <li><a href="./"><i class="icon-phone"></i> Contact</a></li>
+            <li><a href="./blog"><i class="icon-"></i> Blog</a></li>
+            <li><a href="./about"><i class="icon-"></i> About</a></li>
+            <li><a href="./contact"><i class="icon-phone"></i> Contact</a></li>
             <a href="#" id="close"><i class="icon-indent-right"></i></a>
         </ul>
     </div>

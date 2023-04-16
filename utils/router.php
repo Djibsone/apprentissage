@@ -27,9 +27,17 @@ elseif ($route === '/scourse') {
     require './views/scourse.php';
 } 
 
-elseif ($route === '/add-livre') {
-    echo '<h1>page add livre</h1>';
+elseif ($route === '/blog') {
+    require './views/blog.php';
 } 
+
+elseif ($route === '/about') {
+    require './views/about.php';
+} 
+
+elseif ($route === '/contact') {
+    echo '<h1>Page contact</h1>';
+}
 
 else {
     require './views/404.php';

@@ -93,11 +93,11 @@ button[type="submit"]:hover {
   background-color: var(--color4);
 }
 
-a {
+/* a {
   color: var(--color5);
   cursor: pointer;
   text-decoration: none;
-}
+} */
 
 .i {
   border-radius: 20px;
@@ -741,6 +741,115 @@ footer .copyright span:hover {
   line-height: 25px;
 }
 
+
+/* blog page */
+#page-header.blog-header{
+  background-image: url('../../public/images/ellipse3.png');
+}
+/* 
+#blog {
+  padding: 150px 150px 0 150px;
+} */
+
+#blog .blog-box {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  padding-bottom: 90px;
+}
+
+#blog .blog-img {
+  width: 50%;
+  margin-right: 40px;
+}
+
+#blog .img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+} 
+
+#blog .blog-details {
+  width: 50%;
+}
+
+#blog .blog-details a {
+  text-decoration: none;
+  font-size: 11px;
+  color: var(--color7);
+  font-weight: 700;
+  position: relative;
+  transition: 0.3s;
+}
+
+#blog .blog-details a::after {
+  content: "";
+  width: 50px;
+  height: 1px;
+  background-color: var(--color7);
+  position: absolute;
+  top: 4px;
+  right: -60px;
+}
+
+#blog .blog-details a:hover {
+  color: var(--color4);
+}
+
+#blog .blog-details a:hover::after {
+  background-color: var(--color4);
+}
+
+
+#blog .blog-box h1 {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  font-size: 70px;
+  font-weight: 700;
+  color: var(--color14);
+  z-index: -9;
+}
+
+/* about page */
+#page-header.about-header {
+  background-image: url('../../public/images/td.jpg');
+}
+
+
+#about-head {
+  display: flex;
+  align-items: center;
+}
+
+#about-head img {
+  width: 50%;
+  height: auto;
+}
+
+#about-head div {
+  padding: 0 0 0 40px;
+}
+
+#about-app {
+  text-align: center;
+}
+
+#about-app .video {
+  width: 70%;
+  height: 100%;
+  margin: 30px auto 0 auto;
+}
+
+#about-app .video video {
+  width: 70%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+
+
 /* my mrdia screen */
 @media (max-width: 799px) {
   .section-p1 {
@@ -939,11 +1048,50 @@ footer .copyright span:hover {
 
   footer .install .row img {
     width: 100%;
-  }
-}
+  } 
 
-@media screen and (max-width: 1030px) {
-  #hero button {
+  /* blog page */
+  #blog {
+    padding: 100px 20px 0 20px;
+  }
+
+  #blog .blog-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #blog .blog-img {
+    width: 100%;
+    margin-right: 0px;
+    margin: 0 0 30px 0;
+  }
+
+  #blog .blog-details {
     width: 100%;
   }
+
+  /* about page */
+  #about-head {
+    flex-direction: column;
+  }
+
+  #about-head img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #about-head div {
+    padding: 0px 0px 0px 0px;
+  }
+
+  #about-app .video {
+    width: 100%;
+  }
+  
+  /*pour agrandir la video #about-app .video video {
+    width: 100%;
+  } */
 }
+
+
