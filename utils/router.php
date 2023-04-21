@@ -36,7 +36,11 @@ elseif ($route === '/about') {
 } 
 
 elseif ($route === '/contact') {
-    echo '<h1>Page contact</h1>';
+    require './views/contact.php';
+}
+
+elseif ($route === '/cart') {
+    require './views/cart.php';
 }
 
 else {
