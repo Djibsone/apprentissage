@@ -1065,7 +1065,7 @@ footer .copyright span:hover {
 
 
 /* my mrdia screen */
-@media (max-width: 799px) {
+@media screen and (max-width: 799px) {
   .section-p1 {
     padding: 40px 40px;
   }
